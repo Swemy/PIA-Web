@@ -14,7 +14,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: rgb(157, 85, 159);
+    background-color: rgb(150, 80, 160);
   }
   
   /* Style the topnav links */
@@ -29,7 +29,7 @@ body {
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: rgb(193, 47, 200);
+    color: rgb(190, 50, 200);
   }
 
 
@@ -45,8 +45,9 @@ body {
   
 /* Fake image */
 .fakeimg {
-    background-color:rgb(157, 85, 159);
-    width: 95%;
+    background-color:rgb(171, 160, 172);
+    width: 
+    100%;
     padding: 20px;
   }
   
@@ -124,35 +125,57 @@ input[type="password"]{
     margin-bottom: 15px;
     border: 1px solid #aaa;
 }
+
 .icon{
     min-width: 50px;
     text-align: center;
     color: #999;
 }
+
 .button{
     border: none;
     width: 100%;
     color: white;
     font-size: 20px;
-    background:  #1a2537;
+    background:  rgb(150, 80, 160);
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 .button:hover{
-    background: cadetblue;
+    background: rgb(212, 184, 206);
 }
 p{
     text-align: center;
 }
 .link{
     text-decoration: none;
-      color: #1a2537;
+      color: rgb(150, 80, 160);
     font-weight: 600;
 }
 .link:hover{
-     color: cadetblue;
+     color: rgb(212, 184, 206);
 }
+
+.btn{
+  display: inline-block;
+  text-align: center; 
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background:  rgb(150, 80, 160);
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background: rgb(212, 184, 206);
+}
+
 @media(min-width:768px)
 {
     .formulario{
