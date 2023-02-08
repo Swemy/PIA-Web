@@ -1,58 +1,66 @@
-body {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*body {
     font-family: Arial;
     padding: 10px;
     background: #c9a4c5;
+  }*/
+
+  #sidebar{
+    position: fixed;
+    width: 200;
+    height: 100%;
+    background: #353643;
+    left: -280px;
   }
 
-  
-  .header {
-    padding: 30px;
+  #sidebar .active{
+
+    left: 0;
+  }
+
+  #sidebar ul li{
+
+    color: #F9E9E9;
     text-align: center;
-    background: rgb(235, 196, 236);
+    padding: 15px 10px;
+    list-style: none;
+    border-bottom: 1px solid #94747B;
+  }
+  .logo {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    height: 180px;
   }
 
+  #sidebar .toggle-btn{
 
+    position: absolute;
+    left: 290px;
+    top: 20px;
+    cursor: pointer;
 
-  h1 {
-    color: rgb(93, 32, 91);
-  }
-  p {
-    color: rgb(202, 150, 188);
   }
 
-/* Fake image */
-.fakeimg {
-    background-color:rgb(171, 160, 172);
-    width: 
-    100%;
-    padding: 20px;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Footer */
-.footer {
-    padding: 20px;
+  #sidebar .toggle-btn span{
+    display: block;
+    width: 40px;
     text-align: center;
-    background: 6rgb(218, 200, 221);
-    margin-top: 20px;
-  }
+    font-size: 30px;
+    border: 1px solid #000;
+
+  } 
+
+  
 
 
 
-
+  
 
 
 
