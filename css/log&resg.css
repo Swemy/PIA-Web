@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-   background: url(imagen.jpg);
+    background-image: linear-gradient(#F5D2D2, #F9E9E9);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -13,13 +13,13 @@ body {
     padding: 15px;
 }
 .formulario{
-    background: #fff;
+    background: #E5B1B3;
     margin-top: 150px;
     padding: 3px;
 }
 h1{
     text-align: center;
-    color: #1a2537;
+    color: #F9E9E9;
     font-size: 40px;
 }
 input[type="text"],
@@ -31,21 +31,21 @@ input[type="password"]{
 }
 .input-contenedor{
     margin-bottom: 15px;
-    border: 1px solid #aaa;
+    border: 1px solid #F9E9E9;
 }
 
 .icon{
     min-width: 50px;
     text-align: center;
-    color: #999;
+    color: #F9E9E9;
 }
 
 .button{
     border: none;
     width: 100%;
-    color: white;
+    color: #F9E9E9;
     font-size: 20px;
-    background:  #353643;
+    background:  #94747B;
     padding: 15px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -58,11 +58,11 @@ p{
 }
 .link{
     text-decoration: none;
-      color: rgb(150, 80, 160);
+      color: #94747B;
     font-weight: 600;
 }
 .link:hover{
-     color: rgb(212, 184, 206);
+     color: #F9E9E9;
 }
 
 .btn{
@@ -71,9 +71,9 @@ p{
   text-decoration: none;
   border: none;
   width: 100%;
-  color: white;
+  color: #F9E9E9;
   font-size: 20px;
-  background: #353643;
+  background: #94747B;
   padding: 15px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -81,7 +81,7 @@ p{
 }
 
 .btn:hover{
-  background: rgb(212, 184, 206);
+  background: #F9E9E9;
 }
 
 
