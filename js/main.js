@@ -1,8 +1,12 @@
 // sidebar toggle
-const btnToggle = document.querySelector('.toggle-btn');
+const body = document.querySelector("body"),
+      sidebar = body.querySelector(".sidebar"),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box");
 
-btnToggle.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('sidebar').classList.toggle('active');
-  console.log(document.getElementById('sidebar'))
-});
+      toggle.addEventListener("click",()=>{
+        sidebar.classList.toggle("close");
+      });
+      searchBtn.addEventListener("click",()=>{
+        sidebar.classList.remove("close");
+      });
