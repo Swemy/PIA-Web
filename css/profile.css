@@ -42,11 +42,13 @@
 }
 
 .wrapper .left h4{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    
 }
 
 .wrapper .left p{
-    font-size: 12px;
+    font-size: 15px;
+    
 }
 
 .wrapper .right{
@@ -60,6 +62,7 @@
 .wrapper .right .info,
 .wrapper .right .edit-profile{
     margin-bottom: 25px;
+    
 }
 
 .wrapper .right .info h3,
@@ -67,5 +70,14 @@
     margin-bottom: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 
+}
+
+.wrapper .right .info,
+.wrapper .right .edit-profile{
+
+    padding-bottom: 5px;
 }
