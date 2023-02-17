@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+    font-family: 'Josefin Sans',sans-serif;
+
+}
+
+
+:root{
+--tarjet01-color: #F3D0CF;
+--tarjet01-color-gradient: #E4B2B3;
+--tarjet-color: #F9F2F5;
+
+}
+
+.wrapper{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    display: flex;
+    box-shadow: 0  2px 40px 0 rgba(69,90,100,0.08);
+}
+
+.wrapper .left{
+    width: 35%;
+    background: linear-gradient(to right, #b68193, #E4B2B3);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color:#fff;
+
+}
+
+.wrapper.left img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.wrapper .left h4{
+    margin-bottom: 10px;
+}
+
+.wrapper .left p{
+    font-size: 12px;
+}
+
+.wrapper .right{
+    width: 65%;
+    background-color: var(--tarjet-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+
+.wrapper .right .info,
+.wrapper .right .edit-profile{
+    margin-bottom: 25px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .edit-profile h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+
+}

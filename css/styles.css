@@ -6,12 +6,17 @@
   padding: 0;
   box-sizing: border-box; 
 	-webkit-font-smoothing: antialiased;
+  list-style: none;
 }
 
 
 body{
   background-image: linear-gradient(#F5D2D2, #F9E9E9);
-  background-size: 100vh;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 /* --::::MORE::::::-- */
