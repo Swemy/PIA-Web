@@ -2,12 +2,13 @@
 
 body {
     
-    margin: 0;
+    
     background-image: linear-gradient(#F5D2D2, #F9E9E9);
     background-size: cover;
     background-attachment: fixed;
 }
 * {
+   
     box-sizing: border-box;
     font-family: 'Josefin Sans',sans-serif;
 }
@@ -100,3 +101,46 @@ p{
         border-radius: 2%;
     }
 }
+
+.top{
+      
+    padding: 0px 50px 0 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#fff;
+    
+
+}
+.top img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.top label{
+    box-sizing: border-box;
+    display: block;
+    size: 30px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.top label:hover{
+
+    background: #2f2e3a;
+    color: var(--tarjet01-color-gradient);
+}
+
+.top p{
+    font-size: 15px;
+    
+}
+.top input[type="file"]{
+display: none;
+
+}
+
+
