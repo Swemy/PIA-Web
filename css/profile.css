@@ -14,12 +14,12 @@
 }
 
 .wrapper{
-
+    margin-left: 85px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
+    width: 550px;
     display: flex;
     box-shadow: 0  2px 40px 0 rgba(69,90,100,0.08);
 }
@@ -127,7 +127,7 @@
 
 
 .edit-box{
-
+    margin-left: 85px;
     position: absolute;
     top: 50%;
     left: 50%;
