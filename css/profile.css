@@ -15,7 +15,7 @@
 
 .wrapper{
     margin-left: 85px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -128,7 +128,7 @@
 
 .edit-box{
     margin-left: 85px;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -282,4 +282,16 @@ input[type="email"]:focus{
     color: #353c4e;
     transition: 0.2s ease;
 
+}
+
+.ajuste{
+
+    margin-top: 300px;
+}
+.pie-pagina{
+    left: 85px;
+}
+.ajuste .wrapper .pie-pagina{
+    transform: translate(5%);
+    display: block;
 }

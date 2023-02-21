@@ -1,6 +1,8 @@
 /* --::::GENERAL::::::-- */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -284,24 +286,8 @@ a{
   left: 85px;
   width: calc(100% - 85px);
   top:20px;
+  margin-bottom: 20px;
   
-}
-.column.row, .row.columns {
-  float: none;
-}
-.medium-8 {
-  width: 65%;
-}
-.column, .columns {
-  width: 100%;
-  float: left;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.row {
-  max-width: 75rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .container .blog-post{
@@ -311,20 +297,64 @@ margin-top: 40px;
 border-radius: 5px;
 }
 
-.container .thumbnail{
-padding: 5px 30px;
-
-
+.blog-post-wall{
+  
+  width: 65%;
+  transform: translate(30%);
+  font-family: 'Josefin Sans',sans-serif;
 }
+.blog-post .post-title {
+  color: #fff;
+  background: linear-gradient(to right, #b68193, #E4B2B3);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.blog-post .thumbnail{
+  display: block;
+
+  width: 45%;
+ 
+}
+
+.post-content-index{
+  display: flex;
+ position: relative;
+}
+.post-content-index p{
+  color: #353643;
+  padding: 10px 20px 10px;
+}
+.category-name-index{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 2px;
+}
+
+.category-name-index{
+  background: #81837e;
+}
+
+
+
+
 /*--::::FOOTER::::::--*/
 
-/*
+
 .pie-pagina{
-  left: 85px;
+  
   width: 100%;
   background-color: #353643;
 }
 .pie-pagina .grupo-1{
+  
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -377,11 +407,3 @@ padding: 5px 30px;
 .pie-pagina .grupo-2 small{
   font-size: 15px;
 }
-@media screen and (max-width:800px){
-  .pie-pagina .grupo-1{
-      width: 90%;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap:30px;
-      padding: 35px 0px;
-  }
-}*/
