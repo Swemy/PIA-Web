@@ -228,7 +228,7 @@ header .image-text .header-text{
   left: 85px;
   width: calc(100% - 85px);
   padding: 16px 200px;
-  background: #B48A8E;
+  background: linear-gradient(to right, #b68193, #E4B2B3);
 
 }
 .nav .image-user img{

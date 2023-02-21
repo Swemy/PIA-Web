@@ -6,6 +6,7 @@
     <title>PIA</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel= "stylesheet" href="css/styles.css">
+    <link rel= "stylesheet" href="css/post.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
      <!--Iconos-->
@@ -97,9 +98,133 @@
         </div>
        </div>
       </nav>
-
-
-
+    <div class="body">
+      <div class="container-post">
+        <div class="wrapper">
+          <section class="post">
+            <header>Create Post</header>
+            <form action="#">
+              <div class="content">
+                <img src="icons/logo.png" alt="logo">
+                <div class="details">
+                  <p>User</p>
+                  <div class="privacy">
+                    <i class="fas fa-border-all"></i>
+                    <span>Categoria</span>
+                    <i class="fas fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+              <textarea placeholder="¿Que desea informar hoy?" spellcheck="false" required></textarea>
+             
+              <button>Post</button>
+            </form>
+          </section>
+          <section class="audience">
+            <header>
+              <div class="arrow-back"><i class="fas fa-arrow-left"></i></div>
+              <p>Elige una categoria</p>
+            </header>
+            <div class="content">
+              <p>¿Que seccion elijes?</p>
+              <span>Es necesario que elijas una categoria para poder buscar y filtrar.</span>
+            </div>
+            <ul class="list">
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-futbol"></i></div>
+                  <div class="details">
+                    <p>Deportes</p>
+                    <span>Para contenido deportivo y ejercicio.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li class="active">
+                <div class="column">
+                  <div class="icon"><i class="fas fa-ghost"></i></div>
+                  <div class="details">
+                    <p>Terror</p>
+                    <span>Asusta a tus amigos o comparte historias de terror.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-palette"></i></div>
+                  <div class="details">
+                    <p>Arte</p>
+                    <span>Comparte tus obras de arte o relacionados.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-star"></i></div>
+                  <div class="details">
+                    <p>Entretenimiento</p>
+                    <span>Informacion en general o blogs divertidos.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-gamepad"></i></div>
+                  <div class="details">
+                    <p>Videojuegos</p>
+                    <span>Gameplays, estrenos y descuentos.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-music"></i></div>
+                  <div class="details">
+                    <p>Musica</p>
+                    <span>Musica, conciertos y fechas.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-theater-masks"></i></div>
+                  <div class="details">
+                    <p>Cultura</p>
+                    <span>Coreografia, zonas, ferias.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-book"></i></div>
+                  <div class="details">
+                    <p>Literatura</p>
+                    <span>Descuentos, recomendaciones, autores.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+              <li>
+                <div class="column">
+                  <div class="icon"><i class="fas fa-film"></i></div>
+                  <div class="details">
+                    <p>Cine</p>
+                    <span>Estrenos, recomendaciones, en cartelera.</span>
+                  </div>
+                </div>
+                <div class="radio"></div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
 
 
 
@@ -108,6 +233,6 @@
 
 
       <script src="js/main.js"></script>
-
+      <script src="js/post.js"></script>
 </body>
 </html>
