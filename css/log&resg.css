@@ -1,4 +1,8 @@
+/* --::::GENERAL::::::-- */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
 
 body {
     
@@ -12,13 +16,23 @@ body {
     box-sizing: border-box;
     font-family: 'Josefin Sans',sans-serif;
 }
+.title{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+.title h2{
+
+    font-family: 'Fredoka One', cursive;
+}
 .contenedor{
     width: 100%;
     padding: 15px;
 }
 .formulario{
     background: linear-gradient(to right, #b68193, #E4B2B3);
-    margin-top: 150px;
+    
     padding: 3px;
 
 }
@@ -97,7 +111,7 @@ p{
     .formulario{
         margin: auto;
         width: 500px;
-        margin-top: 150px;
+        
         border-radius: 2%;
     }
 }
