@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  
+<head>   
+    <meta charset="UTF-8">
+    <title>PIA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel= "stylesheet" href="css/styles.css">
+    <link rel= "stylesheet" href="css/category.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+     <!--Iconos-->
+     <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--::::Encabezado y sidebar::::::-->
+
+<header class="nav">
+  
+  <a href="#" class="logo">Kitty Posty</a>
+   
+    <div class="image-user">
+      <span class="image">
+        <img src="img/profile.png" alt="profile">    
+      </span>
+      <div class="text-user">
+        <a href="profile.html" class="user">Usuario</a>
+      </div>
+    </div>
+    
+</header>
+    <nav class="sidebar close"> 
+        <header>
+        <div class="image-text">
+            <span class="image">
+            <img src="img/catlogo.png" alt="logokitty">
+            </span>
+
+            <div class="text header-text">
+            <span class="name"> Kitty Posty</span>
+            <span class="slogan"> Cute Cats!</span>
+            </div>
+        </div>
+        
+
+        <i class ='bx bx-chevron-right toggle'></i>
+        </header>
+    
+    <div class="menu-bar">
+        <div class="menu">
+            <li class="search-box">
+                <i class='bx bx-search icon'></i>
+                <input type="text" placeholder="Search..">
+            </li>         
+        <ul class="menu-links">          
+            <li class="nav-link">
+                <a href="index.html">
+                    <i class='bx bx-home-alt-2 icon'></i>
+                    <span class="text nav-text"> Dashboard </span>
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="profile.html">
+                    <i class='bx bx-user icon'></i>
+                    <span class="text nav-text"> Profile </span>
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="post.html">
+                    <i class='bx bx-pen icon'></i>
+                    <span class="text nav-text"> Post </span>
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="catgory.html">
+                    <i class='bx bx-objects-horizontal-left icon'></i>
+                    <span class="text nav-text"> Category </span>
+                </a>
+            </li>
+            <li class="nav-link">
+                <a href="adsearch.html">
+                    <i class='bx bx-radar icon'></i>
+                    <span class="text nav-text"> Advanced </span>
+                </a>
+            </li>
+            
+        </ul>
+        </div>
+        <div class="bottom-content">
+        <li class="">
+            <a href="login.html">
+                <i class='bx bx-log-out icon'></i>
+                <span class="text nav-text"> Logout </span>
+            </a>
+        </li>
+        </div>
+    </div>
+    </nav>
+
+      <div class="main-container">
+        <h2>Categorias</h2>
+        <p>Visualiza tus post por categorias :D</p>
+        <div class="filter-container">
+            <div class="category-head">
+                <ul>
+                    <div class="category-title active"
+                    id="all">
+                        <li>All</li>
+                        <span><i class = "fas fa-border-all"></i></span>
+                </div>
+                <div class="category-title"
+                    id="sports">
+                        <li>Deportes</li>
+                        <span><i class = "fas fa-futbol"></i></span>
+                </div>
+                <div class="category-title"
+                    id="terror">
+                        <li>Terror</li>
+                        <span><i class = "fas fa-ghost"></i></span>
+                </div>
+                <div class="category-title"
+                    id="art">
+                        <li>Arte</li>
+                        <span><i class = "fas fa-palette"></i></span>
+                </div>
+                <div class="category-title"
+                    id="entertainment">
+                        <li>Entretenimiento</li>
+                        <span><i class = "fas fa-star"></i></span>
+                </div>
+                <div class="category-title"
+                    id="videogames">
+                        <li>Videojuegos</li>
+                        <span><i class = "fas fa-gamepad"></i></span>
+                </div>
+                <div class="category-title"
+                    id="music">
+                        <li>Musica</li>
+                        <span><i class = "fas fa-music"></i></span>
+                </div>
+                <div class="category-title"
+                    id="culture">
+                        <li>Cultura</li>
+                        <span><i class = "fas fa-theater-masks"></i></span>
+                </div>
+                <div class="category-title"
+                    id="literature">
+                        <li>Literatura</li>
+                        <span><i class = "fas fa-book"></i></span>
+                </div>
+                <div class="category-title"
+                id="cinema">
+                    <li>Cine</li>
+                    <span><i class = "fas fa-film"></i></span>
+            </div>
+                </ul>
+            </div>
+            <div class="posts-collect">
+                <div class="posts-main-container">
+                    <!-- a one post-->
+                    <div class="all sports">
+                        <div class="post-img">
+                            <img src="img/sports.jpg" alt="post">
+                            <span class="category-name">Deportes</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all terror">
+                        <div class="post-img">
+                            <img src="img/terror.jpg" alt="post">
+                            <span class="category-name">Terror</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all art">
+                        <div class="post-img">
+                            <img src="img/art.jpg" alt="post">
+                            <span class="category-name">Arte</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all entertainment">
+                        <div class="post-img">
+                            <img src="img/entertainment.jpg" alt="post">
+                            <span class="category-name">Entretenimiento</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all videogames">
+                        <div class="post-img">
+                            <img src="img/game.png" alt="post">
+                            <span class="category-name">Videojuegos</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all music">
+                        <div class="post-img">
+                            <img src="img/music.jpg" alt="post">
+                            <span class="category-name">Musica</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all culture">
+                        <div class="post-img">
+                            <img src="img/culture.jpg" alt="post">
+                            <span class="category-name">Cultura</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all literature">
+                        <div class="post-img">
+                            <img src="img/literature.jpg" alt="post">
+                            <span class="category-name">Literatura</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                     <!-- a one post-->
+                    <div class="all cinema">
+                        <div class="post-img">
+                            <img src="img/cinema.jpg" alt="post">
+                            <span class="category-name">Cine</span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-calendar"> Febrero 01, 2023</i></span>
+                                <span>
+                                    <i class = "fas fa-comment"></i>34
+                                </span>
+                            </div> 
+                            <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <button type = "button" class = "read-btn">Read All</button>
+                    </div>
+                     <!-- end of single post -->
+                </div>
+                
+            </div>
+
+
+        </div>
+      </div>
+
+      <div class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/catlogo.png" alt="Logo de pagina">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>UANL</b> - Todos los Derechos Reservados.</small>
+        </div>
+      </div>  
+
+
+      <script src="js/main.js"></script>
+      <script src="js/category.js"></script>
+    </body>
+    </html>
+    

@@ -1,0 +1,160 @@
+/* --::::GENERAL::::::-- */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+body {
+    
+    
+    background-image: linear-gradient(#F5D2D2, #F9E9E9);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+   
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.title{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+.title h2{
+
+    font-family: 'Fredoka One', cursive;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: linear-gradient(to right, #b68193, #E4B2B3);
+    
+    padding: 3px;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;   
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: #F9E9E9;
+    font-size: 20px;
+    background:  #353643;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(126, 103, 121);
+}
+p{
+    text-align: center;
+    color: #353c4e;
+}
+.link{
+    text-decoration: none;
+      color: #94747B;
+    font-weight: 600;
+}
+.link:hover{
+     color: #F9E9E9;
+}
+
+.btn{
+  display: inline-block;
+  text-align: center; 
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  color: #F9E9E9;
+  font-size: 20px;
+  background: #353643;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background: rgb(126, 103, 121);
+}
+
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        
+        border-radius: 2%;
+    }
+}
+
+.top{
+      
+    padding: 0px 50px 0 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#fff;
+    
+
+}
+.top img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.top label{
+    box-sizing: border-box;
+    display: block;
+    size: 30px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.top label:hover{
+
+    background: #2f2e3a;
+    color: var(--tarjet01-color-gradient);
+}
+
+.top p{
+    font-size: 15px;
+    
+}
+.top input[type="file"]{
+display: none;
+
+}
+
+
