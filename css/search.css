@@ -4,7 +4,7 @@
 .wrapper-search{
     position: absolute;
     font-family: 'Josefin Sans',sans-serif;
-    transform: translate(110%);
+    transform: translate(50%);
   }
   
   .wrapper-search .search_box{
@@ -116,7 +116,7 @@
   }
   .wrapper-range{
     font-family: 'Josefin Sans',sans-serif;
-    transform: translate(230%, 40%);
+    transform: translate(100%, 40%);
     width: 380px;
     color: #353643;
     background: #fff;

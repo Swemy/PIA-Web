@@ -303,6 +303,7 @@ border-radius: 5px;
   transform: translate(30%);
   font-family: 'Josefin Sans',sans-serif;
 }
+
 .blog-post .post-title {
   color: #fff;
   background: linear-gradient(to right, #b68193, #E4B2B3);
@@ -310,8 +311,24 @@ border-radius: 5px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.blog-post .icons-post{
+  display: flex;
+  justify-content: right;
+  color: #F9E9E9;
+  background-color: #4d4e5c;
+  padding: 5px 5px;
+}
 
+.icons-post small{
+  
+  margin-left: 10px;
+}
 
+.blog-post .icons-post .icon{
+
+margin-left: 10px;
+
+  }
 .blog-post .thumbnail{
   display: block;
 
